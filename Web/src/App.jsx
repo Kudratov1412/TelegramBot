@@ -8,7 +8,7 @@ const courses = getData();
 const App = () => {
   return (
     <>
-      <h1>Furqat kurslari</h1>
+      <h1 className="heading">Furqat kurslari</h1>
       {/* Cart */}
       <div className="cards__container">
         {courses.map((course) => (

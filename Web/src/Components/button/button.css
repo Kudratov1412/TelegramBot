@@ -1,0 +1,13 @@
+:root {
+  --primary-color: #e0c521;
+}
+
+.btn {
+  padding: 1rem 0.8rem;
+  font-size: 20px;
+  text-align: center;
+  border: 0;
+  outline: none;
+  border-radius: 10px;
+  width: 120px;
+}

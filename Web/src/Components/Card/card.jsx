@@ -1,3 +1,4 @@
+import Button from "../button/button.jsx";
 import "./card.css";
 
 const Card = (props) => {
@@ -18,7 +19,20 @@ const Card = (props) => {
 
       <div className="card__body">
         <h2 className="card__title">{course.title}</h2>
-        <div className="card__price">{course.price}</div>
+        <div className="card__price">
+          {course.price.toLocaleString("en-US", {
+            style: "currency",
+            currency: "USD",
+          })}
+        </div>
+      </div>
+
+      <div className="hr"></div>
+
+      <div className="btn__container">
+        <Button title={"+"} type={"add"} />
+        <Button title={"-"} type={"remove"} />
+        <button>-</button>
       </div>
     </div>
   );
