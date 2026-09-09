@@ -9,7 +9,7 @@ export function getData() {
     {
       title: 'ReactJS',
       price: 15,
-      Image: 'https://www.youtube.com/@SamarBadriddinov',
+      Image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg3fWXqtIJ6G8czHfD9rX6JzLtVi2-OSVTIxOxQZdpWELdMKz-9QBYMYI&s=10',
       id: 2,
     },
     {

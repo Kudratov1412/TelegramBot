@@ -18,7 +18,7 @@ const Card = (props) => {
 
       <div className="card__body">
         <h2 className="card__title">{course.title}</h2>
-        <div className="card__price">{course.price.toLocaleString("en-rus")}</div>
+        <div className="card__price">{course.price}</div>
       </div>
     </div>
   );
