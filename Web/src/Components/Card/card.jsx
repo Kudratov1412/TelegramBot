@@ -1,4 +1,4 @@
-import Button from "../button/button.jsx";
+import Button from "./../Button/button.jsx";
 import "./card.css";
 
 const Card = (props) => {
@@ -32,7 +32,6 @@ const Card = (props) => {
       <div className="btn__container">
         <Button title={"+"} type={"add"} />
         <Button title={"-"} type={"remove"} />
-        <button>-</button>
       </div>
     </div>
   );
