@@ -50,7 +50,7 @@ const App = () => {
   return (
     <>
       <h1 className="heading">Furqat kurslari</h1>
-      <Cart />
+      <Cart cartItems={cartItems} />
       <div className="cards__container">
         {courses.map((course) => (
           <Card
